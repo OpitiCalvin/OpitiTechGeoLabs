@@ -9,7 +9,7 @@ const AppCard = ({ name, desc, link }) => {
           <p className="card-text">{desc}</p>
         </div>
         <div className="card-footer">
-          <a className="btn btn-primary btn-sm" href="#!">
+          <a className="btn btn-primary btn-sm" href={link} target="_blank">
             More Info
           </a>
         </div>
