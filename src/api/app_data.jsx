@@ -5,13 +5,13 @@ export const app_info = [
     link: "http://accidents.opititechgeolabs.com",
   },
   {
-    name: "App Two",
+    name: "web GIS Mapper",
     desc:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod" +
-      "tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem" +
-      "sunt quam eaque, vel, non in id dolore voluptates quos" +
-      "eligendi labore.",
-    link: "#",
+      "A quick and web-based viewer for your ESRI Shapefiles or GeoJSON files." +
+      "This application simplifies your GIS visualization needs, taking away the need" +
+      "for a desktop GIS for quick visualization of your GIS data. Just upload your zipped" +
+      "ESRI Shapefiles to view its contents.",
+    link: "https://mapviewer.opititechgeolabs.com",
   },
   {
     name: "App Three",
