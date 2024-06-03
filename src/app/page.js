@@ -16,7 +16,7 @@ export default function Home() {
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
           <div className="col-lg-7">
             <Image
-              src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg"
+              src="/worldmap.jpg"
               alt="OPITI Geolabs Logo"
               className="img-fluid rounded mb-4 mb-lg-0"
               width={900}
@@ -27,13 +27,14 @@ export default function Home() {
           <div className="col-lg-5">
             <h1 className="font-weight-light">OPITI Inc - Geo Labs</h1>
             <p>
-              This is a template that is great for small businesses. It does not
-              have too much fancy flare to it, but it makes a great use of the
-              standard Bootstrap core components. Feel free to use this template
-              for any project you want!
+              A showcase of a few of my developed and hosted applications,
+              implemented using a variery of open and propriatary applications.
             </p>
-            <a className="btn btn-primary" href="#!">
-              Contact Us
+            <a
+              className="btn btn-primary"
+              href="mailto: opiticalvin@gmail.com ?subject=Possible Consult: Contact from GeoLabs Site"
+            >
+              Reach Out!
             </a>
           </div>
         </div>
@@ -41,8 +42,8 @@ export default function Home() {
         <div className="card text-white bg-secondary my-5 py-4 text-center">
           <div className="card-body">
             <p className="text-white m-0">
-              This call to action card is a great place to showcase some
-              important information or display a clever tagline!
+              Reach out for a consult on your Web Aplication development; GIS
+              integration and Database Administration needs
             </p>
           </div>
         </div>
@@ -54,6 +55,7 @@ export default function Home() {
               name={app.name}
               desc={app.desc}
               link={app.link}
+              imgSrc={app.imgSrc}
             />
           ))}
         </div>
