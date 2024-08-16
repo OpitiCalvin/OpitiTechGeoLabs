@@ -1,20 +1,15 @@
 import Image from "next/image";
-import Navbar from "./navigation/Navbar";
-import Footer from "./components/Footer";
 import AppCard from "./components/AppCard";
 import { app_info } from "@/api/app_data";
 
 export default function Home() {
   return (
-    <main>
-      {/* Responsible navbar */}
-      <Navbar />
-
+    <>
       {/* Page Content */}
       <div className="container px-4 px-lg-5">
         {/* Heading Row */}
         <div className="row gx-4 gx-lg-5 align-items-center my-5">
-          <div className="col-lg-7">
+          <div className="col-lg-8">
             <Image
               src="/worldmap.jpg"
               alt="OPITI Geolabs Logo"
@@ -24,12 +19,18 @@ export default function Home() {
               priority
             />
           </div>
-          <div className="col-lg-5">
-            <h1 className="font-weight-light">OPITI Inc - Geo Labs</h1>
+          <div className="col-lg-4">
+            <h1 className="font-weight-light">Geo-IT Services</h1>
             <p>
-              A showcase of a few of my developed and hosted applications,
-              implemented using a variery of open and propriatary applications.
+              Desktop, Web and Enterprise GIS application and IT infrastructure
+              consultants.
             </p>
+            <ul>
+              <li>Integrated Web GIS App Development</li>
+              <li>Spatial Databases</li>
+              <li>Spatial & Imagery Analytics</li>
+              <li>Enterprise Web GIS Deployment</li>
+            </ul>
             <a
               className="btn btn-primary"
               href="mailto: opiticalvin@gmail.com ?subject=Possible Consult: Contact from GeoLabs Site"
@@ -38,31 +39,17 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <div className="row gx-4 gx-lg-5 my-5"></div>
         {/* Call to Action */}
         <div className="card text-white bg-secondary my-5 py-4 text-center">
           <div className="card-body">
             <p className="text-white m-0">
-              Reach out for a consult on your Web Aplication development; GIS
-              integration and Database Administration needs
+              Reach out for a consult on your Web GIS, Databases and IT
+              infrastructure needs.
             </p>
           </div>
         </div>
-        {/* Content Row */}
-        <div className="row gx-4 gx-lg-5">
-          {app_info.map((app) => (
-            <AppCard
-              key={app.name}
-              name={app.name}
-              desc={app.desc}
-              link={app.link}
-              imgSrc={app.imgSrc}
-            />
-          ))}
-        </div>
       </div>
-
-      {/* Footer */}
-      <Footer />
-    </main>
+    </>
   );
 }
