@@ -6,7 +6,7 @@ export const app_info = [
     imgSrc: "/images/apps/analysis.jpg",
   },
   {
-    name: "web GIS Mapper",
+    name: "Web GIS Mapper",
     desc:
       "A quick and web-based viewer for your ESRI Shapefiles or GeoJSON files." +
       "This application simplifies your GIS visualization needs, taking away the need" +
@@ -14,14 +14,5 @@ export const app_info = [
       "ESRI Shapefiles to view its contents.",
     link: "https://mapviewer.opititechgeolabs.com",
     imgSrc: "/images/apps/webGIS.jpg",
-  },
-  {
-    name: "App Three",
-    desc:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem" +
-      "magni quas ex numquam, maxime minus quam molestias corporis" +
-      "quod, ea minima accusamus.",
-    link: "#",
-    imgSrc: "",
   },
 ];
