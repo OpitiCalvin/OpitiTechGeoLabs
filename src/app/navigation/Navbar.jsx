@@ -6,8 +6,8 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container px-5">
-          <Link href="#" className="navbar-brand">
-            OPITI Inc
+          <Link href="/" className="navbar-brand">
+            OPITI Inc - Geo Labs
           </Link>
           <button
             className="navbar-toggler"
@@ -23,13 +23,17 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link href="#" className="nav-link active" aria-current="page">
+                <Link href="/" className="nav-link active" aria-current="page">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="#" className="nav-link">
                   Services
+                </Link>
+              </li>/<li className="nav-item">
+                <Link href="/demos" className="nav-link">
+                  Demos
                 </Link>
               </li>
               <li className="nav-item">
@@ -38,7 +42,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#" className="nav-link">
+                <Link href="/contact-us" className="nav-link">
                   Contact
                 </Link>
               </li>
