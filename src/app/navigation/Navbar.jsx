@@ -27,20 +27,21 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link href="#" className="nav-link">
                   Services
                 </Link>
-              </li>/<li className="nav-item">
-                <Link href="/demos" className="nav-link">
-                  Demos
+              </li> */}
+              <li className="nav-item">
+                <Link href="/solutions" className="nav-link">
+                  Solutions & Demo Apps
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link href="#" className="nav-link">
                   About
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link href="/contact-us" className="nav-link">
                   Contact

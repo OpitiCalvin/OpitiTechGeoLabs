@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className="mt-auto py-2 bg-dark">
         <div className="container px-4 px-lg-5">
           <p className="m-0 text-center text-white">
-            Copyright &copy; <a href="https://opititechgeolabs.com">Opiti Inc</a>
+            Copyright &copy; Opiti Inc - <a href="https://opititechgeolabs.com">GeoLabs</a> &amp; <a href="https://opiticonsulting.com" target="_blank">Opiti, CO</a>
           </p>
         </div>
       </footer>
