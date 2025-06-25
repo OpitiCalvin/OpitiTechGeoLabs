@@ -21,7 +21,7 @@ const AppCard = ({ name, desc, link, imgSrc }) => {
         </div>
         <div className="card-footer">
           <a className="btn btn-primary btn-sm" href={link} target="_blank">
-            More Info
+            View Solution
           </a>
         </div>
       </div>
